@@ -1,0 +1,72 @@
+.menu
+{
+    background:#0066CC;
+    text-align: center;
+    padding:20px;
+   
+}
+
+li{
+    list-style-type: none;  /* 記號不出現 */
+    list-style:none;
+    display:inline;
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover
+{
+
+    color:#4c0668;/* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
+    position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+    top: 3px;
+    left: 3px;
+}
+
+body{
+    background-color: white;
+}
+
+.word{
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-size: 20px;
+    letter-spacing:10px;
+}
+
+.trace{
+    background-color:#F0F0F0;
+    padding: 13px;
+    color:#84C1FF;
+    font-size: 15px;
+}
+
+.box
+{ 
+  width:800px;
+  /* height: 20vw; */
+  height: auto;
+  box-shadow: -7px -7px 17px rgba(255,255,255,0.5),
+               7px 7px 17px rgba(80,80,80,0.12);
+  position: relative;
+  margin: auto;
+  margin-bottom: 10px;
+  top:38px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color:#BEBEBE;
+  flex-direction: column;
+}
+
+.info{
+    position: relative;
+    left: 10%;
+}
