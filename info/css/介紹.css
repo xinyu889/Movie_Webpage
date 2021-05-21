@@ -1,0 +1,114 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+.menu
+{
+    background:#0066CC;
+    text-align: center;
+    /* padding:20px; */
+   
+}
+.menu ul
+{
+    display:inline-flex;
+    list-style:none;
+    color:#fff;
+}
+
+.menu ul li
+{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.menu ul li:hover
+{
+    background:#ACD6FF;
+    border-radius:3px;
+}
+
+li{
+    list-style-type: none;  /* 記號不出現 */
+    list-style:none;
+    display:inline;
+    width:120px;
+    margin:15px;
+    padding:15px;
+    
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover
+{
+
+    color:#4c0668;/* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
+    position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+    top: 3px;
+    left: 3px;
+}
+
+body{
+    background-color:cornflowerblue;
+}
+
+.pic
+{
+    position: relative;
+    text-align:center;
+    background-color:#0066CC;
+    line-height: 30px;
+}
+
+.text{
+    background-color:#0066CC;
+    text-align: center;
+    line-height: 30px;
+}
+
+.flex-prev{
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    color: #BB3D00;
+    font-family: cursive;
+}
+
+.flex-next{
+    text-align: center;
+    font-family: cursive;
+    color: #BB3D00;
+    float: right;
+    font-size: 30px;
+}
+
+footer p{
+    color:white;
+    font-size: 17px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    top: 30px;
+}
+
+table{
+    width: 100%;
+    word-break:break-all;
+    table-layout: fixed;
+}
+
+h4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
