@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用者註冊頁面</title>
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+<body>
+    <div class="menu" >
+        <li><a href="signup.htm">註冊</a></li>
+        <li><a href="login.htm">會員登入</a></li>
+        <li><a href="info/info.php">電影資訊瀏覽</a></li>
+        <li><a href="booking/訂票.php">訂票</a></li>
+        <li><a href="bookrecord/訂票紀錄.php">訂票紀錄/退票</a></li> 
+    </div>
+    <div class="word">
+        <p>填寫會員資料</p>
+    </div>
+    
+    <div class="box">
+        <form action="signup.php" method="post">
+            <p>Username:<input type="text" name="name"></p>
+            <p>Password: <input type="text" name="password"></p>
+            <p style="text-align: right;"><input type="submit" name="submit" value="Signup"></p>
+        </form>
+    </div>
+</body>
+</html>
